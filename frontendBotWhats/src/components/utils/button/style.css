@@ -1,0 +1,36 @@
+/* style.css */
+.StyledButton {
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: .6rem;
+    background-color: black;
+    color: #fff;
+    padding: .8rem 1.2rem;
+    box-sizing: border-box;
+    transition: all .1s;
+    min-width: 8rem;
+  }
+  
+  .StyledButton:hover,
+  .StyledButton:focus {
+    background-color: #fff;
+    color: green;
+    outline: none;
+    box-shadow: 0 0 0 3px green, 0 0 0 4px #fff;
+  }
+  
+  .StyledButton:disabled {
+    opacity: .5;
+    cursor: wait;
+  }
+  
+  .StyledButton a {
+    text-decoration: none;
+    color: white;
+   
+  }
+  
+  
+  
+  

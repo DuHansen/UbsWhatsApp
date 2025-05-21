@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./whatsauto.com.bt
+    ports:
+      - "3000:3000"  # O backend usa a porta 3000
+    networks:
+      - botwhatsapp
+    environment:
+      - NODE_ENV=production
+
+  frontend:
+    build:
+      context: ./frontendBotWhats
+    ports:
+      - "5173:5173"
+    networks:
+      - botwhatsapp
+    environment:
+      - NODE_ENV=development
+
+networks:
+  botwhatsapp:
+    driver: bridge

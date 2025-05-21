@@ -1,0 +1,182 @@
+:root {
+    --primary-color: black;         /* Cor principal */
+    --secondary-color: #ffffff;       /* Cor de hover */
+    --background-color: #ffffff;      /* Cor de fundo das seções */
+    --light-gray: #f0f0f0;            /* Cor de fundo das células da tabela */
+    --dark-gray: #333333;             /* Cor para textos */
+    --medium-gray: #555555;           /* Cor secundária para textos */
+    --highlight-color: #d1e7dd;       /* Cor para destaque de linhas */
+    --button-radius: 8px;             /* Bordas arredondadas para botões */
+    --input-radius: 4px;              /* Bordas arredondadas para inputs */
+    --font-size-base: 1rem;           /* Tamanho base de fonte */
+    --font-size-large: 1.25rem;       /* Tamanho maior para títulos */
+    --font-size-small: 0.875rem;      /* Tamanho pequeno para telas pequenas */
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  }
+/* Contatos.css */
+#contatos {
+    margin-top: 8vh;
+    padding: 4rem 0;
+}
+
+#contatos .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+#contatos .form-inline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#contatos .form-group {
+    margin-right: 1rem;
+}
+
+#contatos h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#contatos table {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: transparent;
+}
+
+#contatos th,
+#contatos td {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#contatos .btn {
+    margin: 0.5rem;
+}
+
+#contatos .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+#contatos .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-indicator.green {
+    background-color: green;
+}
+
+.status-indicator.red {
+    background-color: red;
+}
+
+.totals {
+    color:white;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.totals span {
+    margin-right: 15px;
+}
+
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#chart {
+  max-width: 760px;
+  margin: 35px auto;
+  opacity: 0.9;
+}
+
+#timeline-chart .apexcharts-toolbar {
+  opacity: 1;
+  border: 0;
+}
+
+/* Estilos da tabela */
+.StyledLista {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--background-color);
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.StyledLista table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .StyledLista th {
+    padding: 12px 15px;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ddd; /* Borda apenas na thead */
+  }
+  .titulo{
+    text-align: center;
+  }
+  .StyledLista td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--medium-gray);
+    border: none; /* Remover borda das células da tabela */
+  }
+  
+  .StyledLista tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  
+  /* Estilos para telas grandes */
+  @media (min-width: 768px) {
+    .StyledLista table {
+      width: 100%;
+    }
+  }
+  
+  /* Estilos para telas pequenas */
+  @media (max-width: 480px) {
+ 
+    .StyledLista table {
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+    }
+    
+    .StyledLista th,
+    .StyledLista td {
+      font-size: var(--font-size-small);
+      padding: 8px 10px;
+    }
+  }    

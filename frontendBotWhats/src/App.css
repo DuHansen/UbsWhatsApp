@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+.navbar-text{
+  margin-left: 10px;
+  text-decoration: none;
+  align-items: center;
+  
+}
+
+header{
+  background-color: #102E4A;
+  color: #ffffff;
+  height: 5vh;
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+footer{
+  color: #ffffff;
+  margin: 0;
+  background-color: #102E4A;
+  height: 25vh;
+  padding: 0% 10%;
+  width: 100%;
+}
+
+Nav{
+  font-family: sans;
+  color: #ffffff;
+  font-size: 15px;
+}
+.nav-link.dropdown-toggle {
+  color: #ffffff !important;
+}
+
+
+
+ 
+#margem{
+  margin-top: 25px;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+@media (max-width: 768px){
+ 
+  #margem{
+    margin-top: 0px;
+  }
+}
+
+
+
+
