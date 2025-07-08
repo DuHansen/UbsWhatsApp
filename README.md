@@ -62,9 +62,7 @@ Push para a branch (git push origin feature/nova-funcionalidade).
 
 Abra um Pull Request.
 
-###  Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para mais informações.
 
 
 
