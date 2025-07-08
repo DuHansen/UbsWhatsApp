@@ -62,14 +62,9 @@ Push para a branch (git push origin feature/nova-funcionalidade).
 
 Abra um Pull Request.
 
-### Licença
-Distribuído sob a licença MIT. Veja LICENSE para mais informações.
-```bash
+###  Licença
 
----
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para mais informações.
 
-Este arquivo `README.md` descreve o processo de instalação, execução e como trabalhar com o Docker Compose para rodar o backend e frontend da aplicação.
-
-```
 
 
