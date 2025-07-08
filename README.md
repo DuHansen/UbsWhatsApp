@@ -1,4 +1,4 @@
-# Projeto Bot WhatsApp
+# Projeto UBS WhatsApp
 
 Este projeto é uma aplicação que envolve um backend e frontend conectados por meio de Docker Compose. O backend e o frontend se comunicam e são configurados para rodar em ambientes de desenvolvimento e produção.
 
